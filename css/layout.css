@@ -1,0 +1,39 @@
+.container-header {
+    max-width: 1060px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* @media (min-width: var(--max-width)) { 
+    .col-lg-3 {
+        width: calc(100% / 3);
+    }
+} 
+
+@media (max-width: var(--max-width)) { 
+    .col-md-2 {
+        width: calc(100% / 2);
+    }
+}
+    
+
+.col-lg-3 {
+    width: calc(100% / 3);
+}
+
+.no-space{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.col-2x{
+    width: calc((100% / 3 )* 2);
+    width: calc(100% / 3 );
+} */

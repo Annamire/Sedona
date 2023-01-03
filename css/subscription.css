@@ -1,0 +1,84 @@
+.subscription-img {
+    background: url(../images/fourth-screen.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 411px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscription-text p {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+.subscription-text p:nth-child(odd) {
+    text-transform: uppercase;
+    font-size: var(--title-font-size);
+    font-weight: 700;
+    padding-top: 94px;
+}
+
+.subscription-text p:nth-child(even) {
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 29px;
+    padding-bottom: 46px;
+}
+
+.inpud-email {
+    background: #F2F2F2;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    padding-left: 22px;
+    height: 60px;
+    width: 600px;
+    font-size: 18px;
+    font-weight: 400;
+    outline: none;
+}
+
+.inpud-email:hover {
+    background: #E6E6E6;
+}
+
+input[type=email]:focus {
+    outline: 3px solid var(--grid-item-bg);
+}
+
+input[type=email]:invalid {
+    outline: 2px solid #FF5757;
+    background: #fff;
+}
+
+.subscription-btn {
+    background: var(--grid-item-bg);
+    border-radius: 0 10px 10px 0;
+    border: none;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.subscription-btn:hover {
+    background: var(--button-hover);
+}
+
+.subscription-btn:focus {
+    outline: 3px solid var(--button-primary);
+}
+
+.subscription-btn:active {
+    color: rgba(255, 255, 255, 0.3);
+    outline: none;
+}
+
+.subscription-email {
+    font-size: 0;
+}

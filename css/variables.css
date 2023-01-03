@@ -1,0 +1,13 @@
+:root {
+    --main-bg-color: #FFF;
+    --button-primary: #756257;
+    --button-primary-hover: #615048;
+    --button-hover: #68A2CA;
+    --p-color: #333333;
+    --grid-item-bg: #83B3D3;
+    --grid-item-bg-active: #7DB54F;
+    --grid-item-bg-2: rgba(131, 179, 211, 0.12);
+    --grid-item-bg-3:rgba(131, 179, 211, 0.2);
+    --title-font-size: 30px;
+    --title-text-font-size: 22px;
+    }

@@ -1,0 +1,51 @@
+.third__screen-wrapper p:nth-child(1) {
+    font-size: var(--title-font-size);
+    font-weight: 700;
+    text-align: center;
+    padding-top: 91px;
+    margin: 0;
+}
+
+.third__screen-wrapper p:nth-child(2) {
+    color: vertical(--p-color);
+    font-size: var(--title-text-font-size);
+    text-align: center;
+    margin: 0;
+    padding-top: 29px;
+    padding-bottom: 56px;
+}
+
+.third__screen-btn {
+    background: var(--button-primary);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px;
+    width: 575px;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.third__screen-btn:hover {
+    background: var(--button-primary-hover);
+}
+
+.third__screen-btn:focus {
+    outline: 3px solid var(--grid-item-bg);
+}
+
+.third__screen-btn:active {
+    color: rgba(255, 255, 255, 0.3);
+    outline: none;
+}
+
+
+
+.third__screen-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 93px;
+}

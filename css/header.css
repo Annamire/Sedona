@@ -1,0 +1,142 @@
+.header__inner {
+    display: flex;
+}
+
+.logo-img {
+    width: 139px;
+    height: 70px;
+    position: absolute;
+    z-index: 2;
+}
+
+.logo {
+    padding-right: 30px;
+}
+
+.nav__link {
+    position: relative;
+}
+
+.active::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    border: 2px solid var(--button-primary);
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.nav__link:hover {
+    color: var( --button-primary);
+}
+
+.nav__link:active {
+    opacity: 0.3;
+}
+
+.search svg,
+.favorite svg {
+    max-width: 100%;
+    height: 100%;
+}
+
+.search:hover svg,
+.favorite:hover svg {
+    fill: var(--button-primary);
+}
+
+.search:active svg,
+.favorite:active svg {
+    fill: rgba(117, 98, 87, 0.3);
+}
+
+.favorite {
+    position: relative;
+}
+
+.favorite::before {
+    content: '12';
+    position: absolute;
+    top: -15px;
+    right: -12px;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 400;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #7DB54F;
+    line-height: 20.08px;
+}
+
+.favorite:active::before {
+    color: rgba(117, 98, 87, 0.3);
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header__nav-inner ul,
+.header__custom-menu ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.header__nav-inner {
+    padding: 20px 0;
+    margin-left: 169px;
+}
+
+.nav__link,
+.custom-menu li{
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 0;
+    margin-right: 34px;
+}
+
+.search-item {
+    padding: 24px 12px;
+}
+
+.btn-want-item {
+    display: flex;
+    align-items: center;
+}
+
+.btn-want-item>.custom-menu {
+    padding-left: 20px;
+}
+
+.btn-want {
+    background-color: var(--button-primary);
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+}
+
+.btn-want:hover {
+    background-color: var(--button-primary-hover);
+}
+
+.btn-want:focus {
+    outline: 3px solid var(--grid-item-bg);
+}
+
+.btn-want:active {
+    color: rgba(255, 255, 255, 0.3);
+    outline: none;
+}
+
+

@@ -250,34 +250,29 @@
     color: #fff;
     font-size: 18px;
     font-weight: 400;
+    padding: 0 15px;
+    border: 2px solid #ffffff;
+    width: 143px;
+    position: relative;
+}
+
+.max-price-input {
+    margin-left: -2px;
 }
 
 .min-price,
 .max-price {
-    border: 2px solid #ffffff;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 143px;
 }
 
-.min-price {
+.min-price-input {
     border-radius: 4px 0 0 4px;
 }
 
-.max-price {
+.max-price-input {
     border-radius: 0 4px 4px 0;
-}
-
-.min-price:hover,
-.max-price:hover { 
-    border: 2px solid #E5E5E5;
-}
-
-/* как правильно сделать при наведениях разделитель между ячейками??? */
-.min-price:focus,
-.max-price:focus {
-    box-shadow: inset 0px 0px 0px 3px #81B3D2, 0px 0px 0px 3px #81B3D2;
 }
 
 .min-price-text,
@@ -285,6 +280,30 @@
     color: #fff;
     opacity: 0.3;
     font-size: 18px;
+    position: absolute;
+}
+
+.min-price-text {
+    right: 153px;
+}
+
+.max-price-text {
+    right: 10px;
+}
+
+.min-price-input:hover,
+.max-price-input:hover { 
+    border: 2px solid #E5E5E5;
+}
+
+.min-price-input:focus,
+.max-price-input:focus {
+    box-shadow: inset 0px 0px 0px 3px #81B3D2, 0px 0px 0px 3px #81B3D2;
+}
+
+.min-price-input:focus + .min-price-text,
+.max-price-input:focus + .max-price-text {
+    opacity: 0;
 }
 
 .filter__legend-checkbox,

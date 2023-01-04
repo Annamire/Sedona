@@ -7,18 +7,18 @@ let modalClose = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
-    modal.style.display = "block";
+    document.querySelector('body').classList.add('modal-active')
 }
 
 // When the user clicks on <span> (x), close the modal
 modalClose.onclick = function() {
-    modal.style.display = "none";
+    document.querySelector('body').classList.remove('modal-active')
 }
 
 // When the user clicks the button, open the modal
 window.onclick = function(event) {
     if (event.target == modal) {
-        modal.style.display = "none";
+        document.querySelector('body').classList.remove('modal-active')
     }
 }
 

@@ -92,16 +92,16 @@ button .view__icon-active {
     background-repeat: no-repeat;
 }
 
-.catalog-img:hover{
+.catalog-img-link:hover{
     opacity: 0.6;
 }
 
-.catalog-img:focus {
+.catalog-img-link:focus {
     outline: 3px solid var(--grid-item-bg);
     opacity: 1;
 }
 
-.catalog-img:active {
+.catalog-img-link:active {
     opacity: 0.3;
     outline: none;
 }

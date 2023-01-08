@@ -85,6 +85,10 @@ figure {
     padding: 98px 75px 108px;
 }
 
+.features__item-small--text {
+    text-align: center;
+}
+
 .features__item-small:nth-child(odd) {
     background: var(--grid-item-bg-2);
 }
